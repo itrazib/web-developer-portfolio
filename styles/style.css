@@ -105,6 +105,9 @@ nav li a{
 .text-center{
      text-align: center;
 }
+.skill-description{
+    font-size: 16px;
+}
 
 /* Section Start */
 .section-title{
@@ -133,7 +136,7 @@ nav li a{
 .secondary-div{
     background-color: #FFFFFF;
     width: 827px;
-    height: 288px;
+    height: 300px;
     padding: 10px;
     border: 2px solid black;
 }
@@ -149,9 +152,7 @@ nav li a{
     padding: 0 116px 0 ;
 }
 /* Skill section */
-.skill-description{
-    font-size: 16px;
-}
+
 .skill-container{
     display: flex;
     justify-content: space-between;
@@ -165,5 +166,44 @@ nav li a{
     border-radius: 5px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
     margin-right: 24px;
+}
+/* Resume styke */
+.resume-container{
+    display: flex;
+
+}
+.resume-education{
+    width: 558px;
+  
+}
+.education-description{
+    padding-right: 47px;
+    padding-bottom: 30px;
+}
+.resume-education-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.education-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.education-sub-title{
+    font-size: 20px;
+    font-weight: 600px;
+    
+}
+.education-title,.education-sub-title{
+    margin: 5px 0;
+    line-height: 1;
+}
+.horizontal{
+    margin-bottom: 30px;
+}
+.download-cv{
+    margin: 0px 470px;
+}
+.download-cv:hover{
+    border: 4px solid rgb(76, 0, 255);
 }
 
