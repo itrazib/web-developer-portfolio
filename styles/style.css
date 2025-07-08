@@ -1,5 +1,4 @@
 /* font style */
-
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -7,11 +6,13 @@
   font-variation-settings:
     "wdth" 100;
 }
+html,body{
+    height: 100%;
+}
 
 /* nav styles */
 .header{
     width: 1600px;
-    height: px;
     background-image: url('../images/developer.png'),url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
@@ -123,9 +124,13 @@ nav li a{
     font-size: 20px;
     font-weight: bold;
 }
+.line-height1,.line-height2{
+    margin: 5px 0;
+    line-height: 1.2;
+}
 .primary-div{
     width: 1140px;
-    height: 550px;
+    height: 450px;
     margin: 0px auto;
     margin-top: 146px;
     display: flex;
@@ -145,7 +150,7 @@ nav li a{
     width: 1140px;
     height: 550px;
     margin: 0px auto;
-    margin-top: 146px;
+    margin-top: 1px;
 }
 .section-what-description{
     width: 909px;
@@ -168,9 +173,13 @@ nav li a{
     margin-right: 24px;
 }
 /* Resume styke */
+
+.resume-title{
+    padding: 40px;
+}
 .resume-container{
     display: flex;
-
+    justify-content: center;
 }
 .resume-education{
     width: 558px;
@@ -183,6 +192,7 @@ nav li a{
 .resume-education-title{
     font-size: 30px;
     font-weight: bold;
+    margin-top: 10px;
 }
 .education-title{
     font-size: 25px;
@@ -201,9 +211,35 @@ nav li a{
     margin-bottom: 30px;
 }
 .download-cv{
-    margin: 0px 470px;
+margin: 30px;
 }
-.download-cv:hover{
+.download-cv button:hover{
     border: 4px solid rgb(76, 0, 255);
 }
-
+/* footer */
+.footer{
+  width: 1600px;
+  margin: 0px auto;
+  /* margin-top: 130px; */
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+     margin: 0 230px;
+}
+.footer-input{
+    margin-bottom: 18px;
+    padding: 14px;
+    width: 300px;
+    font-size: 15px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.footer-colum p{
+    width: 562px;
+}
+.footer-colum{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
